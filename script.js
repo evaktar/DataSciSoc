@@ -5,16 +5,43 @@ const questions = [
             { text: "The use and development of computer systems that are able to learn and adapt without following explicit instructions via algorithms and statistical models to analyse and draw inferences from patterns in data.", correct: false },
             { text: "The study of data to extract meaningful insights.", correct: true },
             { text: "The study of human excrement.", correct: false },
-            { text: "The process of using statistical analysis and machine learning to discover hidden patterns, correlations, and anomalies within large datasets", correct: false },
+            { text: "The process of using statistical analysis and machine learning to discover hidden patterns, correlations, and anomalies within large datasets.", correct: false },
         ]
     },
     {
-        question: "What does the term 'overfitting refer to in machine learning?",
+        question: "What does the term 'overfitting' refer to in machine learning?",
         answers: [
             { text: "Model performs poorly on both training and test data.", correct: false },
             { text: "Model performs well on training data but poorly on new data.", correct: true },
             { text: "Model performs well on test data but poorly on training data.", correct: false },
-            { text: "Model has too few parameters", correct: false },
+            { text: "Model has too few parameters.", correct: false },
+        ]
+    },
+    {
+        question: "Which library is commonly used for data manipulation and analysis in Python?",
+        answers: [
+            { text: "NumPy", correct: false },
+            { text: "Matplotlib", correct: false },
+            { text: "Scikit-learn", correct: false },
+            { text: "Pandas", correct: true },
+        ]
+    },
+    {
+        question: "Which metric is commonly used to evaluate classification models?",
+        answers: [
+            { text: "Accuracy", correct: true },
+            { text: "Silhouette Score", correct: false },
+            { text: "R-squared", correct: false },
+            { text: "Mean Squared Error", correct: false },
+        ]
+    },
+    {
+        question: "Which of the following file formats is commonly used to store tabular data?",
+        answers: [
+            { text: ".mp3", correct: false },
+            { text: ".twb", correct: false },
+            { text: ".exe", correct: false },
+            { text: ".csv", correct: true },
         ]
     },
     
