@@ -114,6 +114,8 @@ function dispAnswer(ans, clickedButton) {
             let resultMessage = `You Scored: ${score}/${questions.length}`;
             if (percentage >= 80) {
                 resultMessage += " 🎉 You won a prize!";
+            } else {
+                resultMessage += " 😔 Better luck next time . . ."; 
             }
             question.innerHTML = resultMessage;
             answer.innerHTML = "";
