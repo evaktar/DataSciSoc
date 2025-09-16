@@ -110,7 +110,12 @@ function dispAnswer(ans, clickedButton) {
         if (currIdx < questions.length) {
             dispQuestion();
         } else {
-            question.innerHTML = `You Scored: ${score}/${questions.length}`;
+            const percentage = (score / questions.length) * 100;
+            let resultMessage = `You Scored: ${score}/${questions.length}`;
+            if (percentage >= 80) {
+                resultMessage += " 🎉 You won a prize!";
+            }
+            question.innerHTML = resultMessage;
             answer.innerHTML = "";
         }
     }, 500);
