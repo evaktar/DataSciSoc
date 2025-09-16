@@ -2,7 +2,7 @@ const questions = [
     {
         question: "What is Data Science?",
         answers: [
-            { text: "The use and development of computer systems that are able to learn and adapt without following explicit instructions via algorithms and statistical models to analyse and draw inferences from patterns in data.", correct: false },
+            { text: "The use and development of computer systems, that are able to learn and adapt without following explicit instructions via algorithms and statistical models, to analyse and draw inferences from patterns in data.", correct: false },
             { text: "The study of data to extract meaningful insights.", correct: true },
             { text: "The study of human excrement.", correct: false },
             { text: "The process of using statistical analysis and machine learning to discover hidden patterns, correlations, and anomalies within large datasets.", correct: false },
@@ -11,9 +11,9 @@ const questions = [
     {
         question: "What does the term 'overfitting' refer to in machine learning?",
         answers: [
-            { text: "Model performs poorly on both training and test data.", correct: false },
-            { text: "Model performs well on training data but poorly on new data.", correct: true },
-            { text: "Model performs well on test data but poorly on training data.", correct: false },
+            { text: "Model performs poorly on both training and unseen data.", correct: false },
+            { text: "Model performs well on training data but poorly on unseen data.", correct: true },
+            { text: "Model performs well on unseen data but poorly on training data.", correct: false },
             { text: "Model has too few parameters.", correct: false },
         ]
     },
